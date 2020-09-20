@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48A9EA84228B70CF00B0D2CD /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 48A9EA83228B70CF00B0D2CD /* ResourcePath.mm */; };
+		48A9EA87228B70CF00B0D2CD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48A9EA86228B70CF00B0D2CD /* main.cpp */; };
+		48A9EA98228C63AC00B0D2CD /* paddle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48A9EA96228C63AC00B0D2CD /* paddle.cpp */; };
+		48A9EA9B228C7A2800B0D2CD /* ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48A9EA99228C7A2800B0D2CD /* ball.cpp */; };
+		48A9EA9E228CD0B800B0D2CD /* block.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48A9EA9C228CD0B800B0D2CD /* block.cpp */; };
+		48A9EAA1228EF65900B0D2CD /* level.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48A9EA9F228EF65900B0D2CD /* level.cpp */; };
+		48A9EAA4228EFD3E00B0D2CD /* collisions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48A9EAA2228EFD3E00B0D2CD /* collisions.cpp */; };
+		48C6EEC925178078006899CA /* end.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEB125178076006899CA /* end.jpg */; };
+		48C6EECA25178078006899CA /* music2.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEB225178076006899CA /* music2.ogg */; };
+		48C6EECB25178078006899CA /* prototype.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEB325178076006899CA /* prototype.ttf */; };
+		48C6EECC25178078006899CA /* select.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEB425178076006899CA /* select.ogg */; };
+		48C6EECD25178078006899CA /* ping.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEB525178076006899CA /* ping.ogg */; };
+		48C6EECE25178078006899CA /* menu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEB625178076006899CA /* menu.jpg */; };
+		48C6EECF25178078006899CA /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEB725178076006899CA /* sansation.ttf */; };
+		48C6EED025178078006899CA /* background4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEB825178076006899CA /* background4.jpg */; };
+		48C6EED125178078006899CA /* background3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEB925178076006899CA /* background3.jpg */; };
+		48C6EED225178078006899CA /* hit.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEBA25178077006899CA /* hit.ogg */; };
+		48C6EED325178078006899CA /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEBB25178077006899CA /* background.jpg */; };
+		48C6EED425178078006899CA /* lost.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEBC25178077006899CA /* lost.ogg */; };
+		48C6EED525178078006899CA /* applause.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEBD25178077006899CA /* applause.ogg */; };
+		48C6EED625178078006899CA /* music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEBE25178077006899CA /* music.ogg */; };
+		48C6EED725178078006899CA /* pong.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEBF25178077006899CA /* pong.ogg */; };
+		48C6EED825178078006899CA /* fireworks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEC025178077006899CA /* fireworks.jpg */; };
+		48C6EED925178078006899CA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEC125178077006899CA /* icon.png */; };
+		48C6EEDA25178078006899CA /* great.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEC225178077006899CA /* great.ogg */; };
+		48C6EEDB25178078006899CA /* background1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEC325178077006899CA /* background1.jpg */; };
+		48C6EEDC25178078006899CA /* paddleTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEC425178077006899CA /* paddleTexture.png */; };
+		48C6EEDD25178078006899CA /* spaceranger.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEC525178077006899CA /* spaceranger.ttf */; };
+		48C6EEDE25178078006899CA /* background2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEC625178077006899CA /* background2.jpg */; };
+		48C6EEDF25178078006899CA /* click.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEC725178077006899CA /* click.ogg */; };
+		48C6EEE025178078006899CA /* next.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 48C6EEC825178078006899CA /* next.ogg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48A9EA7E228B70CF00B0D2CD /* arkanoid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arkanoid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A9EA82228B70CF00B0D2CD /* arkanoid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "arkanoid-Info.plist"; sourceTree = "<group>"; };
+		48A9EA83228B70CF00B0D2CD /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		48A9EA85228B70CF00B0D2CD /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		48A9EA86228B70CF00B0D2CD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		48A9EA96228C63AC00B0D2CD /* paddle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = paddle.cpp; sourceTree = "<group>"; };
+		48A9EA97228C63AC00B0D2CD /* paddle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = paddle.hpp; sourceTree = "<group>"; };
+		48A9EA99228C7A2800B0D2CD /* ball.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ball.cpp; sourceTree = "<group>"; };
+		48A9EA9A228C7A2800B0D2CD /* ball.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ball.hpp; sourceTree = "<group>"; };
+		48A9EA9C228CD0B800B0D2CD /* block.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = block.cpp; sourceTree = "<group>"; };
+		48A9EA9D228CD0B800B0D2CD /* block.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = block.hpp; sourceTree = "<group>"; };
+		48A9EA9F228EF65900B0D2CD /* level.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = level.cpp; sourceTree = "<group>"; };
+		48A9EAA0228EF65900B0D2CD /* level.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = level.hpp; sourceTree = "<group>"; };
+		48A9EAA2228EFD3E00B0D2CD /* collisions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = collisions.cpp; sourceTree = "<group>"; };
+		48A9EAA3228EFD3E00B0D2CD /* collisions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = collisions.hpp; sourceTree = "<group>"; };
+		48C6EEB125178076006899CA /* end.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = end.jpg; path = Resources/end.jpg; sourceTree = "<group>"; };
+		48C6EEB225178076006899CA /* music2.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = music2.ogg; path = Resources/music2.ogg; sourceTree = "<group>"; };
+		48C6EEB325178076006899CA /* prototype.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = prototype.ttf; path = Resources/prototype.ttf; sourceTree = "<group>"; };
+		48C6EEB425178076006899CA /* select.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = select.ogg; path = Resources/select.ogg; sourceTree = "<group>"; };
+		48C6EEB525178076006899CA /* ping.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = ping.ogg; path = Resources/ping.ogg; sourceTree = "<group>"; };
+		48C6EEB625178076006899CA /* menu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = menu.jpg; path = Resources/menu.jpg; sourceTree = "<group>"; };
+		48C6EEB725178076006899CA /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sansation.ttf; path = Resources/sansation.ttf; sourceTree = "<group>"; };
+		48C6EEB825178076006899CA /* background4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background4.jpg; path = Resources/background4.jpg; sourceTree = "<group>"; };
+		48C6EEB925178076006899CA /* background3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background3.jpg; path = Resources/background3.jpg; sourceTree = "<group>"; };
+		48C6EEBA25178077006899CA /* hit.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = hit.ogg; path = Resources/hit.ogg; sourceTree = "<group>"; };
+		48C6EEBB25178077006899CA /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = Resources/background.jpg; sourceTree = "<group>"; };
+		48C6EEBC25178077006899CA /* lost.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = lost.ogg; path = Resources/lost.ogg; sourceTree = "<group>"; };
+		48C6EEBD25178077006899CA /* applause.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = applause.ogg; path = Resources/applause.ogg; sourceTree = "<group>"; };
+		48C6EEBE25178077006899CA /* music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = music.ogg; path = Resources/music.ogg; sourceTree = "<group>"; };
+		48C6EEBF25178077006899CA /* pong.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = pong.ogg; path = Resources/pong.ogg; sourceTree = "<group>"; };
+		48C6EEC025178077006899CA /* fireworks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fireworks.jpg; path = Resources/fireworks.jpg; sourceTree = "<group>"; };
+		48C6EEC125178077006899CA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Resources/icon.png; sourceTree = "<group>"; };
+		48C6EEC225178077006899CA /* great.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = great.ogg; path = Resources/great.ogg; sourceTree = "<group>"; };
+		48C6EEC325178077006899CA /* background1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background1.jpg; path = Resources/background1.jpg; sourceTree = "<group>"; };
+		48C6EEC425178077006899CA /* paddleTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paddleTexture.png; path = Resources/paddleTexture.png; sourceTree = "<group>"; };
+		48C6EEC525178077006899CA /* spaceranger.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = spaceranger.ttf; path = Resources/spaceranger.ttf; sourceTree = "<group>"; };
+		48C6EEC625178077006899CA /* background2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background2.jpg; path = Resources/background2.jpg; sourceTree = "<group>"; };
+		48C6EEC725178077006899CA /* click.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = click.ogg; path = Resources/click.ogg; sourceTree = "<group>"; };
+		48C6EEC825178078006899CA /* next.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = next.ogg; path = Resources/next.ogg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48A9EA7A228B70CF00B0D2CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48A9EA74228B70CF00B0D2CD = {
+			isa = PBXGroup;
+			children = (
+				48A9EA80228B70CF00B0D2CD /* arkanoid */,
+				48A9EA7F228B70CF00B0D2CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48A9EA7F228B70CF00B0D2CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48A9EA7E228B70CF00B0D2CD /* arkanoid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48A9EA80228B70CF00B0D2CD /* arkanoid */ = {
+			isa = PBXGroup;
+			children = (
+				48A9EA83228B70CF00B0D2CD /* ResourcePath.mm */,
+				48A9EA85228B70CF00B0D2CD /* ResourcePath.hpp */,
+				48A9EA86228B70CF00B0D2CD /* main.cpp */,
+				48A9EA96228C63AC00B0D2CD /* paddle.cpp */,
+				48A9EA97228C63AC00B0D2CD /* paddle.hpp */,
+				48A9EA9C228CD0B800B0D2CD /* block.cpp */,
+				48A9EA9D228CD0B800B0D2CD /* block.hpp */,
+				48A9EA99228C7A2800B0D2CD /* ball.cpp */,
+				48A9EA9A228C7A2800B0D2CD /* ball.hpp */,
+				48A9EAA2228EFD3E00B0D2CD /* collisions.cpp */,
+				48A9EAA3228EFD3E00B0D2CD /* collisions.hpp */,
+				48A9EA9F228EF65900B0D2CD /* level.cpp */,
+				48A9EAA0228EF65900B0D2CD /* level.hpp */,
+				48A9EA88228B70CF00B0D2CD /* Resources */,
+				48A9EA81228B70CF00B0D2CD /* Supporting Files */,
+			);
+			path = arkanoid;
+			sourceTree = "<group>";
+		};
+		48A9EA81228B70CF00B0D2CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48A9EA82228B70CF00B0D2CD /* arkanoid-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48A9EA88228B70CF00B0D2CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				48C6EEBD25178077006899CA /* applause.ogg */,
+				48C6EEBB25178077006899CA /* background.jpg */,
+				48C6EEC325178077006899CA /* background1.jpg */,
+				48C6EEC625178077006899CA /* background2.jpg */,
+				48C6EEB925178076006899CA /* background3.jpg */,
+				48C6EEB825178076006899CA /* background4.jpg */,
+				48C6EEC725178077006899CA /* click.ogg */,
+				48C6EEB125178076006899CA /* end.jpg */,
+				48C6EEC025178077006899CA /* fireworks.jpg */,
+				48C6EEC225178077006899CA /* great.ogg */,
+				48C6EEBA25178077006899CA /* hit.ogg */,
+				48C6EEC125178077006899CA /* icon.png */,
+				48C6EEBC25178077006899CA /* lost.ogg */,
+				48C6EEB625178076006899CA /* menu.jpg */,
+				48C6EEBE25178077006899CA /* music.ogg */,
+				48C6EEB225178076006899CA /* music2.ogg */,
+				48C6EEC825178078006899CA /* next.ogg */,
+				48C6EEC425178077006899CA /* paddleTexture.png */,
+				48C6EEB525178076006899CA /* ping.ogg */,
+				48C6EEBF25178077006899CA /* pong.ogg */,
+				48C6EEB325178076006899CA /* prototype.ttf */,
+				48C6EEB725178076006899CA /* sansation.ttf */,
+				48C6EEB425178076006899CA /* select.ogg */,
+				48C6EEC525178077006899CA /* spaceranger.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48A9EA7D228B70CF00B0D2CD /* arkanoid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A9EA93228B70CF00B0D2CD /* Build configuration list for PBXNativeTarget "arkanoid" */;
+			buildPhases = (
+				48A9EA79228B70CF00B0D2CD /* Sources */,
+				48A9EA7A228B70CF00B0D2CD /* Frameworks */,
+				48A9EA7B228B70CF00B0D2CD /* Resources */,
+				48A9EA7C228B70CF00B0D2CD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arkanoid;
+			productName = arkanoid;
+			productReference = 48A9EA7E228B70CF00B0D2CD /* arkanoid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48A9EA75228B70CF00B0D2CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Robert Pelka";
+				TargetAttributes = {
+					48A9EA7D228B70CF00B0D2CD = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 48A9EA78228B70CF00B0D2CD /* Build configuration list for PBXProject "arkanoid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 48A9EA74228B70CF00B0D2CD;
+			productRefGroup = 48A9EA7F228B70CF00B0D2CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48A9EA7D228B70CF00B0D2CD /* arkanoid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48A9EA7B228B70CF00B0D2CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C6EECD25178078006899CA /* ping.ogg in Resources */,
+				48C6EED125178078006899CA /* background3.jpg in Resources */,
+				48C6EEE025178078006899CA /* next.ogg in Resources */,
+				48C6EECA25178078006899CA /* music2.ogg in Resources */,
+				48C6EEDA25178078006899CA /* great.ogg in Resources */,
+				48C6EEDB25178078006899CA /* background1.jpg in Resources */,
+				48C6EED025178078006899CA /* background4.jpg in Resources */,
+				48C6EECF25178078006899CA /* sansation.ttf in Resources */,
+				48C6EEDC25178078006899CA /* paddleTexture.png in Resources */,
+				48C6EED725178078006899CA /* pong.ogg in Resources */,
+				48C6EED425178078006899CA /* lost.ogg in Resources */,
+				48C6EECC25178078006899CA /* select.ogg in Resources */,
+				48C6EED825178078006899CA /* fireworks.jpg in Resources */,
+				48C6EEDE25178078006899CA /* background2.jpg in Resources */,
+				48C6EED625178078006899CA /* music.ogg in Resources */,
+				48C6EED525178078006899CA /* applause.ogg in Resources */,
+				48C6EEC925178078006899CA /* end.jpg in Resources */,
+				48C6EED925178078006899CA /* icon.png in Resources */,
+				48C6EED225178078006899CA /* hit.ogg in Resources */,
+				48C6EECE25178078006899CA /* menu.jpg in Resources */,
+				48C6EEDF25178078006899CA /* click.ogg in Resources */,
+				48C6EED325178078006899CA /* background.jpg in Resources */,
+				48C6EECB25178078006899CA /* prototype.ttf in Resources */,
+				48C6EEDD25178078006899CA /* spaceranger.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48A9EA7C228B70CF00B0D2CD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nSFML_DEPENDENCIES_INSTALL_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks\"\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                \n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48A9EA79228B70CF00B0D2CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A9EA9B228C7A2800B0D2CD /* ball.cpp in Sources */,
+				48A9EA87228B70CF00B0D2CD /* main.cpp in Sources */,
+				48A9EAA1228EF65900B0D2CD /* level.cpp in Sources */,
+				48A9EAA4228EFD3E00B0D2CD /* collisions.cpp in Sources */,
+				48A9EA9E228CD0B800B0D2CD /* block.cpp in Sources */,
+				48A9EA98228C63AC00B0D2CD /* paddle.cpp in Sources */,
+				48A9EA84228B70CF00B0D2CD /* ResourcePath.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		48A9EA91228B70CF00B0D2CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		48A9EA92228B70CF00B0D2CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		48A9EA94228B70CF00B0D2CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "arkanoid/arkanoid-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48A9EA95228B70CF00B0D2CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "arkanoid/arkanoid-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48A9EA78228B70CF00B0D2CD /* Build configuration list for PBXProject "arkanoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A9EA91228B70CF00B0D2CD /* Debug */,
+				48A9EA92228B70CF00B0D2CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A9EA93228B70CF00B0D2CD /* Build configuration list for PBXNativeTarget "arkanoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A9EA94228B70CF00B0D2CD /* Debug */,
+				48A9EA95228B70CF00B0D2CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48A9EA75228B70CF00B0D2CD /* Project object */;
+}
