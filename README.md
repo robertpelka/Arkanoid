@@ -1,4 +1,4 @@
-# Arkanoid
+# Arkanoid (macOS)
 
 ![screenshot](https://user-images.githubusercontent.com/71329150/93711448-a99ed100-fb4e-11ea-9a55-ea75d23103ae.png)
 
